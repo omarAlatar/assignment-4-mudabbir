@@ -1,0 +1,829 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>مدبّر | إدارة أموالك بذكاء</title>
+
+    <link rel="shortcut icon" href="./images/favicon.png" type="image/x-icon">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Arabic:wght@100;200;300;400;500;600;700&display=swap"
+        rel="stylesheet">
+
+    <link rel="stylesheet" href="./css/all.css">
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body>
+
+    <div class="main-container d-flex">
+
+        <!-- ================= SIDEBAR ================= -->
+        <div class="sidebar pf" id="sidebar">
+            <div class="sidebar-content">
+                <div class="logo d-flex aic g-16 mb-32">
+                    <div class="logo-icon d-flex aic jcc">
+                        <i class="fa-solid fa-coins"></i>
+                    </div>
+                    <div class="logo-text">
+                        <h1 class="fw-700">مدبّر</h1>
+                        <p class="size-14">إدارة أموالك بذكاء</p>
+                    </div>
+                </div>
+
+                <div class="menu">
+                    <ul class="d-flex flex-dc g-8">
+                        <li>
+                            <span class="menu-link d-flex aic g-12">
+                                <i class="fa-solid fa-house"></i>
+                                <span class="menu-text">الصفحة الرئيسية</span>
+                            </span>
+                        </li>
+                        <li>
+                            <span class="menu-item d-flex aic g-12">
+                                <i class="fa-solid fa-arrow-right-arrow-left"></i>
+                                <span class="menu-text">المعاملات</span>
+                            </span>
+                        </li>
+                        <li>
+                            <span class="menu-item d-flex aic g-12">
+                                <i class="fa-solid fa-chart-pie"></i>
+                                <span class="menu-text">الميزانيات</span>
+                            </span>
+                        </li>
+                        <li>
+                            <span class="menu-item d-flex aic g-12">
+                                <i class="fa-solid fa-piggy-bank"></i>
+                                <span class="menu-text">المدخرات</span>
+                            </span>
+                        </li>
+                        <li>
+                            <span class="menu-item d-flex aic g-12">
+                                <i class="fa-solid fa-file-invoice-dollar"></i>
+                                <span class="menu-text">الفواتير الشهرية</span>
+                            </span>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="quick-links">
+                    <h3 class="quick-title size-14 fw-600 mb-16">إجراءات سريعة</h3>
+                    <div class="items-list d-flex flex-dc g-12">
+                        <button class="side-btn d-flex aic g-12">
+                            <div class="icon-box bg-blue-soft d-flex aic jcc">
+                                <i class="fa-solid fa-paper-plane"></i>
+                            </div>
+                            <span class="action-text size-14 fw-500">إرسال أموال</span>
+                        </button>
+
+                        <button class="side-btn d-flex aic g-12">
+                            <div class="icon-box bg-green-soft d-flex aic jcc">
+                                <i class="fa-solid fa-plus"></i>
+                            </div>
+                            <span class="action-text size-14 fw-500">إضافة أموال</span>
+                        </button>
+
+                        <button class="side-btn d-flex aic g-12">
+                            <div class="icon-box bg-purple-soft d-flex aic jcc">
+                                <i class="fa-solid fa-receipt"></i>
+                            </div>
+                            <span class="action-text size-14 fw-500">دفع فاتورة</span>
+                        </button>
+
+                        <button class="side-btn d-flex aic g-12">
+                            <div class="icon-box bg-orange-soft d-flex aic jcc">
+                                <i class="fa-solid fa-chart-line"></i>
+                            </div>
+                            <span class="action-text size-14 fw-500">استثمار</span>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- ================= MAIN CONTENT ================= -->
+        <div class="left-page" id="main">
+
+            <!-- ================= HEADER ================= -->
+            <div class="header" id="header">
+                <div class="header-content pr d-flex jcsb aic">
+                    <div class="right-side d-flex aic g-16">
+                        <div class="logo-icon d-flex aic jcc">
+                            <i class="fa-solid fa-coins"></i>
+                        </div>
+                        <div class="header-title">
+                            <h1 class="fw-700">مدبّر</h1>
+                            <p class="size-14">إدارة أموالك بذكاء</p>
+                        </div>
+                        <div class="status d-flex aic g-8 size-14 fw-500">
+                            <div class="dot"></div>
+                            <span>متصل</span>
+                        </div>
+                    </div>
+
+                    <div class="left-side d-flex aic g-12">
+                        <div class="header-icons d-flex aic g-8">
+                            <button class="icon-btn pr d-flex aic jcc">
+                                <i class="fa-solid fa-search"></i>
+                            </button>
+                            <button class="icon-btn pr d-flex aic jcc">
+                                <i class="fa-regular fa-bell"></i>
+                                <span class="notif-num pa d-flex aic jcc size-12">2</span>
+                            </button>
+                        </div>
+
+                        <div class="profile d-flex aic g-12">
+                            <div>
+                                <p class="user-name size-14 fw-600">سيف أسامة</p>
+                                <p class="user-job size-12">حساب مميز</p>
+                            </div>
+                            <img src="./images/avatar-1.jpg" alt="User Avatar" class="user-img">
+                        </div>
+                    </div>
+
+                    <div class="status mobile-online aic jcc g-8 size-14 fw-500">
+                        <div class="dot"></div>
+                        <span>متصل</span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- ================= TOP CARDS ================= -->
+            <div class="top-cards mb-24">
+                <div class="stat-card">
+                    <p class="card-title size-14">الرصيد الحالي</p>
+                    <p class="money-num fw-700">8,450 جنية</p>
+                    <div class="percent d-flex aic g-4 size-14 text-green">
+                        <i class="fa-solid fa-arrow-up"></i>
+                        <span>+2.5%</span>
+                    </div>
+                </div>
+
+                <div class="stat-card">
+                    <p class="card-title size-14">الدخل</p>
+                    <p class="money-num fw-700">15,000 جنية</p>
+                    <div class="percent d-flex aic g-4 size-14 text-green">
+                        <i class="fa-solid fa-arrow-up"></i>
+                        <span>+8.2%</span>
+                    </div>
+                </div>
+
+                <div class="stat-card">
+                    <p class="card-title size-14">المصروفات</p>
+                    <p class="money-num fw-700">10,000 جنية</p>
+                    <div class="percent d-flex aic g-4 size-14 text-red">
+                        <i class="fa-solid fa-arrow-down"></i>
+                        <span>-1.2%</span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- ================= DASHBOARD ================= -->
+            <div class="Dashboard-grid">
+
+                <!-- Recent Activities -->
+                <div class="side-box box-activities">
+                    <div class="box-header d-flex jcsb aic mb-16">
+                        <h3 class="box-title fw-600">الأنشطة الحديثة</h3>
+                    </div>
+
+                    <div class="activities-list d-flex flex-dc g-12">
+                        <div class="activity-item card-blue-light d-flex ais g-12">
+                            <div class="activity-icon bg-blue-light d-flex aic jcc size-14">
+                                <i class="fa-solid fa-user-plus"></i>
+                            </div>
+                            <div class="activity-body">
+                                <div class="d-flex jcsb aic mb-4">
+                                    <h4 class="size-14 fw-700">إنشاء حساب توفير جديد</h4>
+                                    <span class="size-12 fw-500 text-blue">حساب</span>
+                                </div>
+                                <p class="size-12 text-gray mb-8">تم إنشاء حساب توفير بنك الأهلي بنجاح</p>
+                                <span class="size-12 text-muted">منذ ساعة واحدة</span>
+                            </div>
+                        </div>
+
+                        <div class="activity-item card-green-light d-flex ais g-12">
+                            <div class="activity-icon bg-green-light d-flex aic jcc size-14">
+                                <i class="fa-solid fa-credit-card"></i>
+                            </div>
+                            <div class="activity-body">
+                                <div class="d-flex jcsb aic mb-4">
+                                    <h4 class="size-14 fw-700">إضافة بطاقة جديدة</h4>
+                                    <span class="size-12 fw-500 text-green">بطاقة</span>
+                                </div>
+                                <p class="size-12 text-gray mb-8">تمت إضافة بطاقة Visa الجديدة ****2847</p>
+                                <span class="size-12 text-muted">منذ 3 ساعات</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="box-footer">
+                        <button class="size-14 fw-500 text-blue">عرض جميع الأنشطة (23)</button>
+                    </div>
+                </div>
+
+                <!-- Latest Transactions -->
+                <div class="side-box box-transactions">
+                    <div class="box-header d-flex jcsb aic mb-16">
+                        <h3 class="box-title fw-600">المعاملات الأخيرة</h3>
+                        <span class="more-link size-14 fw-500">عرض الكل <i class="fa-solid fa-chevron-left size-12"></i></span>
+                    </div>
+
+                    <div class="table-container">
+                        <table>
+                            <thead>
+                                <tr>
+                                    <th>المعاملة</th>
+                                    <th>الفئة</th>
+                                    <th>التاريخ</th>
+                                    <th>الحالة</th>
+                                    <th>المبلغ</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>
+                                        <div class="item-user d-flex aic g-12">
+                                            <img src="./images/avatar-2.jpg" alt="محمود النجار">
+                                            <div>
+                                                <p class="item-title fw-500">محمود النجار</p>
+                                                <p class="item-sub size-12">تحويل أموال</p>
+                                            </div>
+                                        </div>
+                                    </td>
+                                    <td>
+                                        <span class="tag-badge bg-green-light"><i class="fa-solid fa-arrow-down"></i> دخل</span>
+                                    </td>
+                                    <td class="text-gray">١٤ أكتوبر ٢٠٢٥</td>
+                                    <td><span class="tag-badge bg-green-light">مكتمل</span></td>
+                                    <td class="fw-600 text-green">+350 جنية</td>
+                                </tr>
+
+                                <tr>
+                                    <td>
+                                        <div class="item-user d-flex aic g-12">
+                                            <div class="round-icon bg-orange-light d-flex aic jcc">
+                                                <i class="fa-solid fa-utensils"></i>
+                                            </div>
+                                            <div>
+                                                <p class="item-title fw-500">مطعم Meat moot</p>
+                                                <p class="item-sub size-12">دفع مطعم</p>
+                                            </div>
+                                        </div>
+                                    </td>
+                                    <td>
+                                        <span class="tag-badge bg-orange-light"><i class="fa-solid fa-utensils"></i> طعام</span>
+                                    </td>
+                                    <td class="text-gray">14 أكتوبر، 2025</td>
+                                    <td><span class="tag-badge bg-green-light">مكتمل</span></td>
+                                    <td class="fw-600">-2200 جنية</td>
+                                </tr>
+
+                                <tr>
+                                    <td>
+                                        <div class="item-user d-flex aic g-12">
+                                            <div class="round-icon bg-blue-light d-flex aic jcc">
+                                                <i class="fa-solid fa-shopping-cart"></i>
+                                            </div>
+                                            <div>
+                                                <p class="item-title fw-500">مشتريات Amazon</p>
+                                                <p class="item-sub size-12">تسوق إلكتروني</p>
+                                            </div>
+                                        </div>
+                                    </td>
+                                    <td>
+                                        <span class="tag-badge bg-blue-light"><i class="fa-solid fa-shopping-cart"></i> تسوق</span>
+                                    </td>
+                                    <td class="text-gray">13 أكتوبر، 2025</td>
+                                    <td><span class="tag-badge bg-green-light">مكتمل</span></td>
+                                    <td class="fw-600">-1250 جنية</td>
+                                </tr>
+
+                                <tr>
+                                    <td>
+                                        <div class="item-user d-flex aic g-12">
+                                            <img src="./images/avatar-1.jpg" alt="عمر المهدي">
+                                            <div>
+                                                <p class="item-title fw-500">عمر المهدي</p>
+                                                <p class="item-sub size-12">دفع فاتورة مقسمة</p>
+                                            </div>
+                                        </div>
+                                    </td>
+                                    <td>
+                                        <span class="tag-badge bg-purple-light"><i class="fa-solid fa-users"></i> فاتورة مقسمة</span>
+                                    </td>
+                                    <td class="text-gray">13 أكتوبر، 2025</td>
+                                    <td><span class="tag-badge bg-green-light">مكتمل</span></td>
+                                    <td class="fw-600">-1400 جنية</td>
+                                </tr>
+
+                                <tr>
+                                    <td>
+                                        <div class="item-user d-flex aic g-12">
+                                            <img src="./images/avatar-3.jpg" alt="محمد عوض">
+                                            <div>
+                                                <p class="item-title fw-500">محمد عوض</p>
+                                                <p class="item-sub size-12">دفع عمل حر</p>
+                                            </div>
+                                        </div>
+                                    </td>
+                                    <td>
+                                        <span class="tag-badge bg-green-light"><i class="fa-solid fa-briefcase"></i> عمل</span>
+                                    </td>
+                                    <td class="text-gray">12 أكتوبر، 2025</td>
+                                    <td><span class="tag-badge bg-green-light">مكتمل</span></td>
+                                    <td class="fw-600 text-green">+2500 جنية</td>
+                                </tr>
+
+                                <tr>
+                                    <td>
+                                        <div class="item-user d-flex aic g-12">
+                                            <div class="round-icon bg-red-light d-flex aic jcc">
+                                                <i class="fa-solid fa-gas-pump"></i>
+                                            </div>
+                                            <div>
+                                                <p class="item-title fw-500">محطة وقود Shell</p>
+                                                <p class="item-sub size-12">شراء وقود</p>
+                                            </div>
+                                        </div>
+                                    </td>
+                                    <td>
+                                        <span class="tag-badge bg-red-light"><i class="fa-solid fa-car"></i> مواصلات</span>
+                                    </td>
+                                    <td class="text-gray">12 أكتوبر، 2025</td>
+                                    <td><span class="tag-badge bg-yellow-light">معلق</span></td>
+                                    <td class="fw-600">-700 جنية</td>
+                                </tr>
+
+                                <tr>
+                                    <td>
+                                        <div class="item-user d-flex aic g-12">
+                                            <div class="round-icon bg-indigo-light d-flex aic jcc">
+                                                <i class="fa-solid fa-film"></i>
+                                            </div>
+                                            <div>
+                                                <p class="item-title fw-500">اشتراك Netflix</p>
+                                                <p class="item-sub size-12">اشتراك شهري</p>
+                                            </div>
+                                        </div>
+                                    </td>
+                                    <td>
+                                        <span class="tag-badge bg-indigo-light"><i class="fa-solid fa-tv"></i> ترفيه</span>
+                                    </td>
+                                    <td class="text-gray">11 أكتوبر، 2025</td>
+                                    <td><span class="tag-badge bg-green-light">مكتمل</span></td>
+                                    <td class="fw-600">-780 جنية</td>
+                                </tr>
+
+                                <tr>
+                                    <td>
+                                        <div class="item-user d-flex aic g-12">
+                                            <div class="round-icon bg-cyan-light d-flex aic jcc">
+                                                <i class="fa-solid fa-dumbbell"></i>
+                                            </div>
+                                            <div>
+                                                <p class="item-title fw-500">نادي FitLife</p>
+                                                <p class="item-sub size-12">عضوية شهرية</p>
+                                            </div>
+                                        </div>
+                                    </td>
+                                    <td>
+                                        <span class="tag-badge bg-cyan-light"><i class="fa-solid fa-heart-pulse"></i> صحة</span>
+                                    </td>
+                                    <td class="text-gray">10 أكتوبر، 2025</td>
+                                    <td><span class="tag-badge bg-green-light">مكتمل</span></td>
+                                    <td class="fw-600">-500 جنية</td>
+                                </tr>
+
+                                <tr>
+                                    <td>
+                                        <div class="item-user d-flex aic g-12">
+                                            <div class="round-icon bg-emerald-light d-flex aic jcc">
+                                                <i class="fa-solid fa-graduation-cap"></i>
+                                            </div>
+                                            <div>
+                                                <p class="item-title fw-500">كورس Jonas</p>
+                                                <p class="item-sub size-12">دورة تدريبية</p>
+                                            </div>
+                                        </div>
+                                    </td>
+                                    <td>
+                                        <span class="tag-badge bg-emerald-light"><i class="fa-solid fa-book"></i> تعليم</span>
+                                    </td>
+                                    <td class="text-gray">9 أكتوبر، 2025</td>
+                                    <td><span class="tag-badge bg-green-light">مكتمل</span></td>
+                                    <td class="fw-600">-250 جنية</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+
+                <!-- Monthly Bills -->
+                <div class="side-box box-bills">
+                    <div class="box-header d-flex jcsb aic mb-16">
+                        <h3 class="box-title fw-600">الفواتير الشهرية</h3>
+                        <span class="more-link size-14 fw-500">عرض الكل <i class="fa-solid fa-chevron-left size-12"></i></span>
+                    </div>
+
+                    <div class="bills-total mb-16">
+                        <p class="bills-num fw-700">1920 جنية</p>
+                        <p class="size-14 text-muted">إجمالي الفواتير الشهرية</p>
+                    </div>
+
+                    <div class="bills-grid">
+                        <div class="bill-card">
+                            <div class="bill-icon bg-blue-light d-flex aic jcc size-14">
+                                <i class="fa-solid fa-wifi"></i>
+                            </div>
+                            <p class="size-12 text-muted">إنترنت</p>
+                            <p class="fw-600">450 جنية</p>
+                            <p class="size-12 text-red-light">يستحق في 3 أيام</p>
+                        </div>
+
+                        <div class="bill-card">
+                            <div class="bill-icon bg-yellow-light d-flex aic jcc size-14">
+                                <i class="fa-solid fa-bolt"></i>
+                            </div>
+                            <p class="size-12 text-muted">كهرباء</p>
+                            <p class="fw-600">400 جنية</p>
+                            <p class="size-12 text-orange">يستحق في 5 أيام</p>
+                        </div>
+
+                        <div class="bill-card">
+                            <div class="bill-icon bg-green-light d-flex aic jcc size-14">
+                                <i class="fa-solid fa-phone"></i>
+                            </div>
+                            <p class="size-12 text-muted">هاتف</p>
+                            <p class="fw-600">290 جنية</p>
+                            <p class="size-12 text-green-light">يستحق في 10 أيام</p>
+                        </div>
+
+                        <div class="bill-card">
+                            <div class="bill-icon bg-red-light d-flex aic jcc size-14">
+                                <i class="fa-solid fa-tv"></i>
+                            </div>
+                            <p class="size-12 text-muted">Netflix</p>
+                            <p class="fw-600">780 جنية</p>
+                            <p class="size-12 text-muted">يستحق في 15 يوم</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Budget Overview -->
+                <div class="side-box box-budget">
+                    <div class="box-header d-flex jcsb aic mb-16">
+                        <h3 class="box-title fw-600">نظرة عامة على الميزانية</h3>
+                        <span class="more-link size-14 fw-500">التفاصيل <i class="fa-solid fa-chevron-left size-12"></i></span>
+                    </div>
+
+                    <div class="budget-summary mb-24">
+                        <div class="d-flex jcsb aic">
+                            <div>
+                                <p class="size-14 fw-500 text-blue">إجمالي الميزانية</p>
+                                <p class="budget-total fw-700">10000 جنية</p>
+                            </div>
+                            <div class="text-right">
+                                <p class="size-14 text-muted">المتبقي</p>
+                                <p class="size-18 fw-600 text-green">1750 جنية</p>
+                            </div>
+                        </div>
+                        <div class="progress-wrapper">
+                            <div class="d-flex jcsb size-12 text-gray mb-4">
+                                <span>المستخدم: 8250 جنية</span>
+                                <span>82.5%</span>
+                            </div>
+                            <div class="bar-track">
+                                <div class="bar-fill fill-main"></div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="cards-list d-flex flex-dc g-16">
+                        <div class="budget-card">
+                            <div class="d-flex jcsb aic mb-8">
+                                <div class="d-flex aic g-12">
+                                    <div class="icon-box bg-orange-light d-flex aic jcc">
+                                        <i class="fa-solid fa-film"></i>
+                                    </div>
+                                    <div>
+                                        <p class="item-title fw-500">ترفيه</p>
+                                        <p class="item-sub size-12">الميزانية: 1500 جنية</p>
+                                    </div>
+                                </div>
+                                <div class="text-right">
+                                    <p class="item-title fw-500">750 جنية</p>
+                                    <span class="tag-badge bg-green-light">متبقي 50%</span>
+                                </div>
+                            </div>
+                            <div class="bar-track">
+                                <div class="bar-fill fill-orange"></div>
+                            </div>
+                        </div>
+
+                        <div class="budget-card">
+                            <div class="d-flex jcsb aic mb-8">
+                                <div class="d-flex aic g-12">
+                                    <div class="icon-box bg-red-light d-flex aic jcc">
+                                        <i class="fa-solid fa-file-invoice-dollar"></i>
+                                    </div>
+                                    <div>
+                                        <p class="item-title fw-500">فواتير</p>
+                                        <p class="item-sub size-12">الميزانية: 2000 جنية</p>
+                                    </div>
+                                </div>
+                                <div class="text-right">
+                                    <p class="item-title fw-500">2000 جنية</p>
+                                    <span class="tag-badge bg-red-light">مستخدم 100%</span>
+                                </div>
+                            </div>
+                            <div class="bar-track">
+                                <div class="bar-fill fill-red"></div>
+                            </div>
+                        </div>
+
+                        <div class="budget-card">
+                            <div class="d-flex jcsb aic mb-8">
+                                <div class="d-flex aic g-12">
+                                    <div class="icon-box bg-pink-light d-flex aic jcc">
+                                        <i class="fa-solid fa-heart"></i>
+                                    </div>
+                                    <div>
+                                        <p class="item-title fw-500">العناية الشخصية</p>
+                                        <p class="item-sub size-12">الميزانية: 1500 جنية</p>
+                                    </div>
+                                </div>
+                                <div class="text-right">
+                                    <p class="item-title fw-500">1200 جنية</p>
+                                    <span class="tag-badge bg-yellow-light">متبقي 20%</span>
+                                </div>
+                            </div>
+                            <div class="bar-track">
+                                <div class="bar-fill fill-pink"></div>
+                            </div>
+                        </div>
+
+                        <div class="budget-card">
+                            <div class="d-flex jcsb aic mb-8">
+                                <div class="d-flex aic g-12">
+                                    <div class="icon-box bg-green-light d-flex aic jcc">
+                                        <i class="fa-solid fa-shopping-cart"></i>
+                                    </div>
+                                    <div>
+                                        <p class="item-title fw-500">مستلزمات المنزل</p>
+                                        <p class="item-sub size-12">الميزانية: 5000 جنية</p>
+                                    </div>
+                                </div>
+                                <div class="text-right">
+                                    <p class="item-title fw-500">4300 جنية</p>
+                                    <span class="tag-badge bg-green-light">متبقي 14%</span>
+                                </div>
+                            </div>
+                            <div class="bar-track">
+                                <div class="bar-fill fill-green"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Income vs Expenses Chart -->
+                <div class="side-box box-chart">
+                    <div class="box-header d-flex jcsb aic mb-16">
+                        <h3 class="box-title fw-600">الدخل مقابل المصروفات</h3>
+                        <span class="more-link size-14 fw-500">التحليل <i class="fa-solid fa-chevron-left size-12"></i></span>
+                    </div>
+
+                    <div class="chart-area">
+                        <div class="chart-legend d-flex jcc g-16 mb-16">
+                            <div class="legend-item d-flex aic g-8 size-12">
+                                <div class="legend-box legend-in"></div>
+                                <span>الدخل</span>
+                            </div>
+                            <div class="legend-item d-flex aic g-8 size-12">
+                                <div class="legend-box legend-out"></div>
+                                <span>المصروفات</span>
+                            </div>
+                        </div>
+
+                        <div class="chart-groups d-flex jcsb">
+                            <div class="chart-col d-flex flex-dc aic">
+                                <div class="chart-bars d-flex ch1">
+                                </div>
+                                <div class="chart-label size-12">الأسبوع 1</div>
+                            </div>
+
+                            <div class="chart-col d-flex flex-dc aic">
+                                <div class="chart-bars d-flex  ch2">
+                                </div>
+                                <div class="chart-label size-12">الأسبوع 2</div>
+                            </div>
+
+                            <div class="chart-col d-flex flex-dc aic">
+                                <div class="chart-bars d-flex ch3">
+                                </div>
+                                <div class="chart-label size-12">الأسبوع 3</div>
+                            </div>
+
+                            <div class="chart-col d-flex flex-dc aic">
+                                <div class="chart-bars d-flex ch4">
+                                </div>
+                                <div class="chart-label size-12">الأسبوع 4</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Payment Methods -->
+                <div class="side-box box-payments">
+                    <div class="box-header d-flex jcsb aic mb-16">
+                        <h3 class="box-title fw-600">وسائل الدفع</h3>
+                        <span class="more-link size-14 fw-500">إدارة <i class="fa-solid fa-chevron-left size-12"></i></span>
+                    </div>
+
+                    <div class="cards-list d-flex flex-dc g-16">
+                        <div class="card-flip">
+                            <div class="card-inner pr">
+                                <div class="card-front pr visa-bg">
+                                    <div class="primary-badge pa fw-700">أساسية</div>
+                                    <div class="card-top d-flex jcsb ais">
+                                        <div class="chip-outer d-flex aic jcc">
+                                            <div class="chip-inner"></div>
+                                        </div>
+                                        <i class="fa-brands fa-cc-visa"></i>
+                                    </div>
+                                    <div class="card-body">
+                                        <p class="card-num">•••• •••• •••• 4532</p>
+                                        <div class="card-bottom d-flex jcsb">
+                                            <div>
+                                                <p class="size-12 text-blue-soft">حامل البطاقة</p>
+                                                <p class="size-14 fw-500">سيف أسامة</p>
+                                            </div>
+                                            <div>
+                                                <p class="size-12 text-blue-soft">تنتهي</p>
+                                                <p class="size-14 fw-500">12/26</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="card-back pa d-flex flex-dc">
+                                    <div class="mag-stripe"></div>
+                                    <div class="microprint">توقيع معتمد - غير صالحة بدون توقيع</div>
+                                    <div class="signature d-flex aic">
+                                        <div class="scribble"></div>
+                                        <div class="last4">4532</div>
+                                    </div>
+                                    <div class="cvv-row d-flex aic">
+                                        <div>
+                                            <div class="size-12 text-gray-soft">CVV</div>
+                                            <div class="cvv-box fw-700">123</div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="card-flip">
+                            <div class="card-inner pr">
+                                <div class="card-front pr master-bg">
+                                    <div class="card-top d-flex jcsb ais">
+                                        <div class="chip-outer d-flex aic jcc">
+                                            <div class="chip-inner"></div>
+                                        </div>
+                                        <i class="fa-brands fa-cc-mastercard"></i>
+                                    </div>
+                                    <div class="card-body">
+                                        <p class="card-num">•••• •••• •••• 8901</p>
+                                        <div class="card-bottom d-flex jcsb">
+                                            <div>
+                                                <p class="size-12 text-red-soft">حامل البطاقة</p>
+                                                <p class="size-14 fw-500">سيف أسامة</p>
+                                            </div>
+                                            <div>
+                                                <p class="size-12 text-red-soft">تنتهي</p>
+                                                <p class="size-14 fw-500">08/27</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="card-back pa d-flex flex-dc">
+                                    <div class="mag-stripe"></div>
+                                    <div class="microprint">توقيع معتمد - غير صالحة بدون توقيع</div>
+                                    <div class="signature d-flex aic">
+                                        <div class="scribble"></div>
+                                        <div class="last4">8901</div>
+                                    </div>
+                                    <div class="cvv-row d-flex aic">
+                                        <div>
+                                            <div class="size-12 text-gray-soft">CVV</div>
+                                            <div class="cvv-box fw-700">456</div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="card-flip">
+                            <div class="card-inner pr">
+                                <div class="card-front pr paypal-bg">
+                                    <div class="card-top d-flex jcsb ais">
+                                        <div class="chip-outer d-flex aic jcc">
+                                            <div class="chip-inner"></div>
+                                        </div>
+                                        <i class="fa-brands fa-paypal"></i>
+                                    </div>
+                                    <div class="card-body">
+                                        <p class="paypal-title size-18 fw-500">حساب Paypal</p>
+                                        <div class="card-bottom d-flex jcsb">
+                                            <div>
+                                                <p class="size-12 text-gray-soft">الإيميل</p>
+                                                <p class="size-14 fw-500">seif@example.com</p>
+                                            </div>
+                                            <div>
+                                                <p class="size-12 text-gray-soft">الحالة</p>
+                                                <p class="size-14 fw-500 text-green-soft">موثق</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="card-back pa d-flex flex-dc">
+                                    <div class="mag-stripe"></div>
+                                    <div class="microprint">توقيع معتمد - غير صالحة بدون توقيع</div>
+                                    <div class="signature d-flex aic">
+                                        <div class="scribble"></div>
+                                        <div class="last4">PP01</div>
+                                    </div>
+                                    <div class="cvv-row d-flex aic">
+                                        <div>
+                                            <div class="size-12 text-gray-soft">ID</div>
+                                            <div class="cvv-box fw-700">PP-01</div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Account Summary -->
+                <div class="side-box box-accounts">
+                    <div class="box-header d-flex jcsb aic mb-16">
+                        <h3 class="box-title fw-600">ملخص الحساب</h3>
+                        <span class="more-link size-14 fw-500">التفاصيل <i class="fa-solid fa-chevron-left size-12"></i></span>
+                    </div>
+
+                    <div class="cards-list d-flex flex-dc g-16">
+                        <div class="account-card d-flex aic jcsb">
+                            <div class="d-flex aic g-12">
+                                <div class="icon-box bg-blue-light d-flex aic jcc">
+                                    <i class="fa-solid fa-building-columns"></i>
+                                </div>
+                                <div>
+                                    <p class="item-title fw-500">حساب جاري</p>
+                                    <p class="item-sub size-12">بنك مصر <span dir="ltr">[•••• 4532]</span></p>
+                                </div>
+                            </div>
+                            <p class="fw-600">8,450 جنية</p>
+                        </div>
+
+                        <div class="account-card d-flex aic jcsb">
+                            <div class="d-flex aic g-12">
+                                <div class="icon-box bg-green-light d-flex aic jcc">
+                                    <i class="fa-solid fa-piggy-bank"></i>
+                                </div>
+                                <div>
+                                    <p class="item-title fw-500">حساب التوفير</p>
+                                    <p class="item-sub size-12">بنك مصر <span dir="ltr">[•••• 8901]</span></p>
+                                </div>
+                            </div>
+                            <p class="fw-600">297,540 جنية</p>
+                        </div>
+
+                        <div class="account-card d-flex aic jcsb">
+                            <div class="d-flex aic g-12">
+                                <div class="icon-box bg-purple-light d-flex aic jcc">
+                                    <i class="fa-solid fa-credit-card"></i>
+                                </div>
+                                <div>
+                                    <p class="item-title fw-500">بطاقة ائتمان</p>
+                                    <p class="item-sub size-12">متاح: 1,850 جنية من 2,500 جنية</p>
+                                </div>
+                            </div>
+                            <p class="fw-600 text-red">- 6,000 جنية</p>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+    </div>
+
+</body>
+
+</html>
